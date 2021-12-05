@@ -10,10 +10,16 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundMask;
     bool isGrounded;
+    GameManager gameManager;
 
     public Camera mainCamera;
 
     Vector3 velocity;
+
+    private void Awake()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
 
     private void Update()
     {
@@ -42,13 +48,18 @@ public class PlayerMovement : MonoBehaviour
         {
             Shoot();
         }
+
+        
     }
 
     void Shoot()
     {
+        
+
         RaycastHit hit;
-        if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, range))
-        {
+        //if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, range))
+            if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, range))
+            {
             Debug.Log(hit.transform.name);
 
             Target target = hit.transform.GetComponent<Target>();
@@ -58,4 +69,15 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Ammo"))
+        {
+            Debug.Log("OSUMA");
+            gameManager.GameOver();
+        }
+    }
+
+
 }

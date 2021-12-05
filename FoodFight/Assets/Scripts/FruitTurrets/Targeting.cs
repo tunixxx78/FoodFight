@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Targeting : MonoBehaviour
 {
-    public GameObject Host, host2, host3, host4;
+    public GameObject Host, host2, host3;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,7 @@ public class Targeting : MonoBehaviour
             Host.GetComponent<TurretAi>().Shoot();
             host2.GetComponent<TurretAi>().Shoot();
             host3.GetComponent<TurretAi>().Shoot();
-            host4.GetComponent<TurretAi>().Shoot();
+            
         }
 
     }
