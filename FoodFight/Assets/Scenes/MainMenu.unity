@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10552718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AmmoSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 24722568}
   - component: {fileID: 24722567}
   - component: {fileID: 24722566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1824,7 +1824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 594174747}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2063,7 @@ GameObject:
   - component: {fileID: 665653223}
   - component: {fileID: 665653225}
   - component: {fileID: 665653224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3561,7 +3561,7 @@ GameObject:
   - component: {fileID: 1159999679}
   - component: {fileID: 1159999681}
   - component: {fileID: 1159999682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3617,7 +3617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1159999679}
   speed: 12
-  gravityy: -9.81
+  gravityy: -19.62
   groundDistance: 0.4
   jump: 3
   damage: 10
@@ -3766,7 +3766,7 @@ GameObject:
   - component: {fileID: 1286739897}
   - component: {fileID: 1286739896}
   - component: {fileID: 1286739895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4087,7 +4087,7 @@ GameObject:
   - component: {fileID: 1509447505}
   - component: {fileID: 1509447504}
   - component: {fileID: 1509447506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -4153,7 +4153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509447499}
   m_LocalRotation: {x: -0.08535984, y: -0, z: -0, w: 0.9963502}
-  m_LocalPosition: {x: 0, y: 3.0999997, z: -9.299999}
+  m_LocalPosition: {x: -1.09, y: 1.58, z: -11.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159999680}

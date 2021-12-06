@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: d054cd75b134b6241bf2d84f614b55ee
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ball_L
+    100002: Ball_R
+    100004: Body
+    100006: body_LOD0
+    100008: body_LOD0 1
+    100010: body_LOD1
+    100012: body_LOD1 1
+    100014: body_LOD2
+    100016: body_LOD2 1
+    100018: body_LOD3
+    100020: body_LOD3 1
+    100022: Calf_L
+    100024: Calf_R
+    100026: Clavicle_L
+    100028: Clavicle_R
+    100030: Foot_L
+    100032: Foot_R
+    100034: Hand_L
+    100036: Hand_R
+    100038: Head
+    100040: Head 1
+    100042: Head2
+    100044: Head_LOD0
+    100046: Head_LOD0 1
+    100048: Head_LOD1
+    100050: Head_LOD1 1
+    100052: Head_LOD2
+    100054: Head_LOD2 1
+    100056: Index_01_L
+    100058: Index_01_R
+    100060: Index_02_L
+    100062: Index_02_R
+    100064: Index_03_L
+    100066: Index_03_R
+    100068: LowerArm_L
+    100070: LowerArm_R
+    100072: Middle_01_L
+    100074: Middle_01_R
+    100076: Middle_02_L
+    100078: Middle_02_R
+    100080: Middle_03_L
+    100082: Middle_03_R
+    100084: Neck_01
+    100086: Pelvis
+    100088: Pinky_01_L
+    100090: Pinky_01_R
+    100092: Pinky_02_L
+    100094: Pinky_02_R
+    100096: Pinky_03_L
+    100098: Pinky_03_R
+    100100: Rifle
+    100102: Rifle_LOD0
+    100104: Rifle_LOD0 1
+    100106: Rifle_LOD1
+    100108: Rifle_LOD1 1
+    100110: Rifle_LOD2
+    100112: Rifle_LOD2 1
+    100114: Rifle_LOD3
+    100116: Rifle_LOD3 1
+    100118: Ring_01_L
+    100120: Ring_01_R
+    100122: Ring_02_L
+    100124: Ring_02_R
+    100126: Ring_03_L
+    100128: Ring_03_R
+    100130: SFTrooper_04
+    100132: //RootNode
+    100134: Spine_01
+    100136: Spine_02
+    100138: Spine_03
+    100140: Thigh_L
+    100142: Thigh_R
+    100144: Thumb_01_L
+    100146: Thumb_01_R
+    100148: Thumb_02_L
+    100150: Thumb_02_R
+    100152: Thumb_03_L
+    100154: Thumb_03_R
+    100156: UpperArm_L
+    100158: UpperArm_R
+    100160: head
+    100162: rifle
+    400000: Ball_L
+    400002: Ball_R
+    400004: Body
+    400006: body_LOD0
+    400008: body_LOD0 1
+    400010: body_LOD1
+    400012: body_LOD1 1
+    400014: body_LOD2
+    400016: body_LOD2 1
+    400018: body_LOD3
+    400020: body_LOD3 1
+    400022: Calf_L
+    400024: Calf_R
+    400026: Clavicle_L
+    400028: Clavicle_R
+    400030: Foot_L
+    400032: Foot_R
+    400034: Hand_L
+    400036: Hand_R
+    400038: Head
+    400040: Head 1
+    400042: Head2
+    400044: Head_LOD0
+    400046: Head_LOD0 1
+    400048: Head_LOD1
+    400050: Head_LOD1 1
+    400052: Head_LOD2
+    400054: Head_LOD2 1
+    400056: Index_01_L
+    400058: Index_01_R
+    400060: Index_02_L
+    400062: Index_02_R
+    400064: Index_03_L
+    400066: Index_03_R
+    400068: LowerArm_L
+    400070: LowerArm_R
+    400072: Middle_01_L
+    400074: Middle_01_R
+    400076: Middle_02_L
+    400078: Middle_02_R
+    400080: Middle_03_L
+    400082: Middle_03_R
+    400084: Neck_01
+    400086: Pelvis
+    400088: Pinky_01_L
+    400090: Pinky_01_R
+    400092: Pinky_02_L
+    400094: Pinky_02_R
+    400096: Pinky_03_L
+    400098: Pinky_03_R
+    400100: Rifle
+    400102: Rifle_LOD0
+    400104: Rifle_LOD0 1
+    400106: Rifle_LOD1
+    400108: Rifle_LOD1 1
+    400110: Rifle_LOD2
+    400112: Rifle_LOD2 1
+    400114: Rifle_LOD3
+    400116: Rifle_LOD3 1
+    400118: Ring_01_L
+    400120: Ring_01_R
+    400122: Ring_02_L
+    400124: Ring_02_R
+    400126: Ring_03_L
+    400128: Ring_03_R
+    400130: SFTrooper_04
+    400132: //RootNode
+    400134: Spine_01
+    400136: Spine_02
+    400138: Spine_03
+    400140: Thigh_L
+    400142: Thigh_R
+    400144: Thumb_01_L
+    400146: Thumb_01_R
+    400148: Thumb_02_L
+    400150: Thumb_02_R
+    400152: Thumb_03_L
+    400154: Thumb_03_R
+    400156: UpperArm_L
+    400158: UpperArm_R
+    400160: head
+    400162: rifle
+    2100000: Head1
+    2100002: Body1
+    2100004: Rifle1
+    4300000: Head_LOD0
+    4300002: Head_LOD1
+    4300004: Head_LOD2
+    4300006: body_LOD0
+    4300008: body_LOD1
+    4300010: body_LOD2
+    4300012: body_LOD3
+    4300014: Rifle_LOD0
+    4300016: Rifle_LOD1
+    4300018: Rifle_LOD2
+    4300020: Rifle_LOD3
+    7400000: Backflip
+    7400002: RunBackwards
+    7400004: WalkBackwards
+    7400006: Crouch_Death
+    7400008: Crouch_Idle
+    7400010: Crouch_Rapid_Fire
+    7400012: Crouch_Strafe_Run_Backwards
+    7400014: Crouch_Strafe_Run_Left
+    7400016: Crouch_To_Prone
+    7400018: Crouch_To_Standing_With_Rifle
+    7400020: Crouch_Walk_Strafe_Left
+    7400022: Crouch_Walk_Strafe_Right
+    7400024: Crouch_Walking_Backwards
+    7400026: Crouch_Strafe_Run_Forward
+    7400028: Crouch_Strafe_Run_Right
+    7400030: Death
+    7400032: Death_Crouching_Headshot_Front
+    7400034: Death_From_Right
+    7400036: DeathFront
+    7400038: DeathFront_02
+    7400040: Fire_Single_Crouch
+    7400042: Fire_Walk_Fast
+    7400044: Fire_walk
+    7400046: Fire_Crouch_Walk_02
+    7400048: Fire_Run
+    7400050: Fire_Walk_Fast_02
+    7400052: Fire_Slow_Walk
+    7400054: Grenade_Throw
+    7400056: Hit_1
+    7400058: Hit_2
+    7400060: Idle
+    7400062: ProneBack
+    7400064: Prone_Death_HeadHit
+    7400066: Prone_Firing_Rifle
+    7400068: Prone_Idle
+    7400070: Prone_Reloading
+    7400072: ReloadRun
+    7400074: Reload__Walk
+    7400076: Rifle_Idle__1_
+    7400078: Jump
+    7400080: Rifle_Run
+    7400082: Rifle_Sprint
+    7400084: Rifle_Walk
+    7400086: Run_Backward
+    7400088: Run_Forward
+    7400090: Run_Left
+    7400092: Run_Right
+    7400094: Sprint_Forward_Right
+    7400096: Walk_Backward
+    7400098: Walk_Backward_Right
+    7400100: Walk_Forward
+    7400102: Walk_Left
+    7400104: Walk_Right
+    7400106: Walking_Backwards
+    7400108: Death_02
+    7400110: Walking
+    7400112: Fire_Single_Stand
+    7400114: Fire_Crouch_Walk
+    7400116: Idle_Aim
+    7400118: Idle_Aim_Crouch
+    7400120: ProneForward
+    7400122: Reload__Stand
+    7400124: Rifle_Idle__2
+    7400126: Jump_Up
+    7400128: Jump_Air
+    7400130: Jump_Down
+    7400132: Rifle_Kneel_Idle
+    7400134: Rifle_Kneel_Idle_02
+    7400136: Sprint_Forward_Left
+    7400138: Crouch_Walking_Forward
+    7400140: Walking_Aim
+    7400142: Walking_Aim_Search
+    7400144: Run_Aim
+    7400146: Run_Aim_Search
+    7400148: Idle_Aim_Search
+    7400150: Walk_Backward_Aim
+    7400152: Walk_Backward_Aim_Search
+    7400154: Fire_Walk_Fast_Around
+    7400156: aTPose
+    9500000: //RootNode
+    13700000: body_LOD0
+    13700002: body_LOD1
+    13700004: body_LOD2
+    13700006: body_LOD3
+    13700008: Head_LOD0
+    13700010: Head_LOD1
+    13700012: Head_LOD2
+    13700014: Rifle_LOD0
+    13700016: Rifle_LOD1
+    13700018: Rifle_LOD2
+    13700020: Rifle_LOD3
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body1
+    second: {fileID: 2100000, guid: d15fe174c8d14e04a9d9e56711382a69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head1
+    second: {fileID: 2100000, guid: 171abb23a06c565489c4c257b99702ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rifle1
+    second: {fileID: 2100000, guid: f2e0cc1ee350b7345a4ec42f68a10489, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 0.027
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.027
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 90
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 0
+    normalSmoothingSource: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
