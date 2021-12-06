@@ -25,4 +25,15 @@ public class Target : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Bullet"))
+        {
+            Debug.Log("Osuma Palloon!");
+            ScoringSystem.theScore += scoreAmount;
+            ScoringSystem.theHighScore += scoreAmount;
+            Destroy(this.gameObject);
+        }
+    }
 }

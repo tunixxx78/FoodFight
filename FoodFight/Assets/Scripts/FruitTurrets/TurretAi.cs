@@ -13,6 +13,12 @@ public class TurretAi : MonoBehaviour
 
     private int angleMultiplier; // Tämä on 1 jos ammutaan positiivisen suuntaan(z) ja -1 jos ammutaan negatiiviseen suuntaan(z).
 
+    SFXManager sFXManager;
+
+    private void Awake()
+    {
+        sFXManager = FindObjectOfType<SFXManager>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -62,6 +68,7 @@ public class TurretAi : MonoBehaviour
         // Eka ammus
         GameObject projectile = Instantiate(ammo, ammoSpawn.transform.position, Quaternion.identity);
         projectile.GetComponent<Rigidbody>().AddRelativeForce(direction[0], ForceMode.Impulse);
+        sFXManager.CannonShooting();
 
         yield return new WaitForSeconds(2);
 
@@ -75,6 +82,7 @@ public class TurretAi : MonoBehaviour
         // Toka ammus
         GameObject projectile2 = Instantiate(ammo, ammoSpawn.transform.position, Quaternion.identity);
         projectile2.GetComponent<Rigidbody>().AddRelativeForce(direction[1], ForceMode.Impulse);
+        sFXManager.CannonShooting();
 
 
 

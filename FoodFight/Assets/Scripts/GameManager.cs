@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void GameOver()
     {
         gameOverPanel.SetActive(true);

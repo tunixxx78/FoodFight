@@ -7,18 +7,23 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController controller;
     public float speed = 12, gravityy = -9.81f, groundDistance = 0.4f, jump = 3f, damage = 10f, range = 100f;
-    public Transform groundCheck;
+    public Transform groundCheck, bulletSpawnPoint;
     public LayerMask groundMask;
     bool isGrounded;
     GameManager gameManager;
+    public GameObject bullet;
+    public float shootForce;
 
     public Camera mainCamera;
 
     Vector3 velocity;
 
+    SFXManager sFXManager;
+
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
+        sFXManager = FindObjectOfType<SFXManager>();
     }
 
     private void Update()
@@ -47,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            sFXManager.CharacterShooting();
         }
 
         
@@ -54,20 +60,37 @@ public class PlayerMovement : MonoBehaviour
 
     void Shoot()
     {
-        
 
+
+        /* RaycastHit hit;
+             if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, range))
+             {
+             Debug.Log(hit.transform.name);
+
+             Target target = hit.transform.GetComponent<Target>();
+             if (target != null)
+             {
+                 target.TakeDamage(damage);
+             }
+         }*/
+
+        Ray ray = mainCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
-        //if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, range))
-            if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, range))
-            {
-            Debug.Log(hit.transform.name);
 
-            Target target = hit.transform.GetComponent<Target>();
-            if (target != null)
-            {
-                target.TakeDamage(damage);
-            }
+        Vector3 targetPoint;
+        if(Physics.Raycast(ray, out hit))
+        {
+            targetPoint = hit.point;
         }
+        else { targetPoint = ray.GetPoint(75); }
+
+        Vector3 direction = targetPoint - bulletSpawnPoint.position;
+
+        GameObject currentBullet = Instantiate(bullet, bulletSpawnPoint.position, Quaternion.identity);
+
+        currentBullet.transform.forward = direction.normalized;
+
+        currentBullet.GetComponent<Rigidbody>().AddForce(direction.normalized * shootForce, ForceMode.Impulse);
     }
 
     private void OnCollisionEnter(Collision collision)
