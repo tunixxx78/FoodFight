@@ -72,6 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_8A2B8817: 0
     - _BumpScale: 1.07
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -82,6 +83,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 0.262
+    - _OpacityThreshold: 0
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

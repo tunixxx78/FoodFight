@@ -1,278 +1,818 @@
 fileFormatVersion: 2
 guid: d054cd75b134b6241bf2d84f614b55ee
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Ball_L
-    100002: Ball_R
-    100004: Body
-    100006: body_LOD0
-    100008: body_LOD0 1
-    100010: body_LOD1
-    100012: body_LOD1 1
-    100014: body_LOD2
-    100016: body_LOD2 1
-    100018: body_LOD3
-    100020: body_LOD3 1
-    100022: Calf_L
-    100024: Calf_R
-    100026: Clavicle_L
-    100028: Clavicle_R
-    100030: Foot_L
-    100032: Foot_R
-    100034: Hand_L
-    100036: Hand_R
-    100038: Head
-    100040: Head 1
-    100042: Head2
-    100044: Head_LOD0
-    100046: Head_LOD0 1
-    100048: Head_LOD1
-    100050: Head_LOD1 1
-    100052: Head_LOD2
-    100054: Head_LOD2 1
-    100056: Index_01_L
-    100058: Index_01_R
-    100060: Index_02_L
-    100062: Index_02_R
-    100064: Index_03_L
-    100066: Index_03_R
-    100068: LowerArm_L
-    100070: LowerArm_R
-    100072: Middle_01_L
-    100074: Middle_01_R
-    100076: Middle_02_L
-    100078: Middle_02_R
-    100080: Middle_03_L
-    100082: Middle_03_R
-    100084: Neck_01
-    100086: Pelvis
-    100088: Pinky_01_L
-    100090: Pinky_01_R
-    100092: Pinky_02_L
-    100094: Pinky_02_R
-    100096: Pinky_03_L
-    100098: Pinky_03_R
-    100100: Rifle
-    100102: Rifle_LOD0
-    100104: Rifle_LOD0 1
-    100106: Rifle_LOD1
-    100108: Rifle_LOD1 1
-    100110: Rifle_LOD2
-    100112: Rifle_LOD2 1
-    100114: Rifle_LOD3
-    100116: Rifle_LOD3 1
-    100118: Ring_01_L
-    100120: Ring_01_R
-    100122: Ring_02_L
-    100124: Ring_02_R
-    100126: Ring_03_L
-    100128: Ring_03_R
-    100130: SFTrooper_04
-    100132: //RootNode
-    100134: Spine_01
-    100136: Spine_02
-    100138: Spine_03
-    100140: Thigh_L
-    100142: Thigh_R
-    100144: Thumb_01_L
-    100146: Thumb_01_R
-    100148: Thumb_02_L
-    100150: Thumb_02_R
-    100152: Thumb_03_L
-    100154: Thumb_03_R
-    100156: UpperArm_L
-    100158: UpperArm_R
-    100160: head
-    100162: rifle
-    400000: Ball_L
-    400002: Ball_R
-    400004: Body
-    400006: body_LOD0
-    400008: body_LOD0 1
-    400010: body_LOD1
-    400012: body_LOD1 1
-    400014: body_LOD2
-    400016: body_LOD2 1
-    400018: body_LOD3
-    400020: body_LOD3 1
-    400022: Calf_L
-    400024: Calf_R
-    400026: Clavicle_L
-    400028: Clavicle_R
-    400030: Foot_L
-    400032: Foot_R
-    400034: Hand_L
-    400036: Hand_R
-    400038: Head
-    400040: Head 1
-    400042: Head2
-    400044: Head_LOD0
-    400046: Head_LOD0 1
-    400048: Head_LOD1
-    400050: Head_LOD1 1
-    400052: Head_LOD2
-    400054: Head_LOD2 1
-    400056: Index_01_L
-    400058: Index_01_R
-    400060: Index_02_L
-    400062: Index_02_R
-    400064: Index_03_L
-    400066: Index_03_R
-    400068: LowerArm_L
-    400070: LowerArm_R
-    400072: Middle_01_L
-    400074: Middle_01_R
-    400076: Middle_02_L
-    400078: Middle_02_R
-    400080: Middle_03_L
-    400082: Middle_03_R
-    400084: Neck_01
-    400086: Pelvis
-    400088: Pinky_01_L
-    400090: Pinky_01_R
-    400092: Pinky_02_L
-    400094: Pinky_02_R
-    400096: Pinky_03_L
-    400098: Pinky_03_R
-    400100: Rifle
-    400102: Rifle_LOD0
-    400104: Rifle_LOD0 1
-    400106: Rifle_LOD1
-    400108: Rifle_LOD1 1
-    400110: Rifle_LOD2
-    400112: Rifle_LOD2 1
-    400114: Rifle_LOD3
-    400116: Rifle_LOD3 1
-    400118: Ring_01_L
-    400120: Ring_01_R
-    400122: Ring_02_L
-    400124: Ring_02_R
-    400126: Ring_03_L
-    400128: Ring_03_R
-    400130: SFTrooper_04
-    400132: //RootNode
-    400134: Spine_01
-    400136: Spine_02
-    400138: Spine_03
-    400140: Thigh_L
-    400142: Thigh_R
-    400144: Thumb_01_L
-    400146: Thumb_01_R
-    400148: Thumb_02_L
-    400150: Thumb_02_R
-    400152: Thumb_03_L
-    400154: Thumb_03_R
-    400156: UpperArm_L
-    400158: UpperArm_R
-    400160: head
-    400162: rifle
-    2100000: Head1
-    2100002: Body1
-    2100004: Rifle1
-    4300000: Head_LOD0
-    4300002: Head_LOD1
-    4300004: Head_LOD2
-    4300006: body_LOD0
-    4300008: body_LOD1
-    4300010: body_LOD2
-    4300012: body_LOD3
-    4300014: Rifle_LOD0
-    4300016: Rifle_LOD1
-    4300018: Rifle_LOD2
-    4300020: Rifle_LOD3
-    7400000: Backflip
-    7400002: RunBackwards
-    7400004: WalkBackwards
-    7400006: Crouch_Death
-    7400008: Crouch_Idle
-    7400010: Crouch_Rapid_Fire
-    7400012: Crouch_Strafe_Run_Backwards
-    7400014: Crouch_Strafe_Run_Left
-    7400016: Crouch_To_Prone
-    7400018: Crouch_To_Standing_With_Rifle
-    7400020: Crouch_Walk_Strafe_Left
-    7400022: Crouch_Walk_Strafe_Right
-    7400024: Crouch_Walking_Backwards
-    7400026: Crouch_Strafe_Run_Forward
-    7400028: Crouch_Strafe_Run_Right
-    7400030: Death
-    7400032: Death_Crouching_Headshot_Front
-    7400034: Death_From_Right
-    7400036: DeathFront
-    7400038: DeathFront_02
-    7400040: Fire_Single_Crouch
-    7400042: Fire_Walk_Fast
-    7400044: Fire_walk
-    7400046: Fire_Crouch_Walk_02
-    7400048: Fire_Run
-    7400050: Fire_Walk_Fast_02
-    7400052: Fire_Slow_Walk
-    7400054: Grenade_Throw
-    7400056: Hit_1
-    7400058: Hit_2
-    7400060: Idle
-    7400062: ProneBack
-    7400064: Prone_Death_HeadHit
-    7400066: Prone_Firing_Rifle
-    7400068: Prone_Idle
-    7400070: Prone_Reloading
-    7400072: ReloadRun
-    7400074: Reload__Walk
-    7400076: Rifle_Idle__1_
-    7400078: Jump
-    7400080: Rifle_Run
-    7400082: Rifle_Sprint
-    7400084: Rifle_Walk
-    7400086: Run_Backward
-    7400088: Run_Forward
-    7400090: Run_Left
-    7400092: Run_Right
-    7400094: Sprint_Forward_Right
-    7400096: Walk_Backward
-    7400098: Walk_Backward_Right
-    7400100: Walk_Forward
-    7400102: Walk_Left
-    7400104: Walk_Right
-    7400106: Walking_Backwards
-    7400108: Death_02
-    7400110: Walking
-    7400112: Fire_Single_Stand
-    7400114: Fire_Crouch_Walk
-    7400116: Idle_Aim
-    7400118: Idle_Aim_Crouch
-    7400120: ProneForward
-    7400122: Reload__Stand
-    7400124: Rifle_Idle__2
-    7400126: Jump_Up
-    7400128: Jump_Air
-    7400130: Jump_Down
-    7400132: Rifle_Kneel_Idle
-    7400134: Rifle_Kneel_Idle_02
-    7400136: Sprint_Forward_Left
-    7400138: Crouch_Walking_Forward
-    7400140: Walking_Aim
-    7400142: Walking_Aim_Search
-    7400144: Run_Aim
-    7400146: Run_Aim_Search
-    7400148: Idle_Aim_Search
-    7400150: Walk_Backward_Aim
-    7400152: Walk_Backward_Aim_Search
-    7400154: Fire_Walk_Fast_Around
-    7400156: aTPose
-    9500000: //RootNode
-    13700000: body_LOD0
-    13700002: body_LOD1
-    13700004: body_LOD2
-    13700006: body_LOD3
-    13700008: Head_LOD0
-    13700010: Head_LOD1
-    13700012: Head_LOD2
-    13700014: Rifle_LOD0
-    13700016: Rifle_LOD1
-    13700018: Rifle_LOD2
-    13700020: Rifle_LOD3
-    20500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Ball_L
+  - first:
+      1: 100002
+    second: Ball_R
+  - first:
+      1: 100004
+    second: Body
+  - first:
+      1: 100006
+    second: body_LOD0
+  - first:
+      1: 100008
+    second: body_LOD0 1
+  - first:
+      1: 100010
+    second: body_LOD1
+  - first:
+      1: 100012
+    second: body_LOD1 1
+  - first:
+      1: 100014
+    second: body_LOD2
+  - first:
+      1: 100016
+    second: body_LOD2 1
+  - first:
+      1: 100018
+    second: body_LOD3
+  - first:
+      1: 100020
+    second: body_LOD3 1
+  - first:
+      1: 100022
+    second: Calf_L
+  - first:
+      1: 100024
+    second: Calf_R
+  - first:
+      1: 100026
+    second: Clavicle_L
+  - first:
+      1: 100028
+    second: Clavicle_R
+  - first:
+      1: 100030
+    second: Foot_L
+  - first:
+      1: 100032
+    second: Foot_R
+  - first:
+      1: 100034
+    second: Hand_L
+  - first:
+      1: 100036
+    second: Hand_R
+  - first:
+      1: 100038
+    second: Head
+  - first:
+      1: 100040
+    second: Head 1
+  - first:
+      1: 100042
+    second: Head2
+  - first:
+      1: 100044
+    second: Head_LOD0
+  - first:
+      1: 100046
+    second: Head_LOD0 1
+  - first:
+      1: 100048
+    second: Head_LOD1
+  - first:
+      1: 100050
+    second: Head_LOD1 1
+  - first:
+      1: 100052
+    second: Head_LOD2
+  - first:
+      1: 100054
+    second: Head_LOD2 1
+  - first:
+      1: 100056
+    second: Index_01_L
+  - first:
+      1: 100058
+    second: Index_01_R
+  - first:
+      1: 100060
+    second: Index_02_L
+  - first:
+      1: 100062
+    second: Index_02_R
+  - first:
+      1: 100064
+    second: Index_03_L
+  - first:
+      1: 100066
+    second: Index_03_R
+  - first:
+      1: 100068
+    second: LowerArm_L
+  - first:
+      1: 100070
+    second: LowerArm_R
+  - first:
+      1: 100072
+    second: Middle_01_L
+  - first:
+      1: 100074
+    second: Middle_01_R
+  - first:
+      1: 100076
+    second: Middle_02_L
+  - first:
+      1: 100078
+    second: Middle_02_R
+  - first:
+      1: 100080
+    second: Middle_03_L
+  - first:
+      1: 100082
+    second: Middle_03_R
+  - first:
+      1: 100084
+    second: Neck_01
+  - first:
+      1: 100086
+    second: Pelvis
+  - first:
+      1: 100088
+    second: Pinky_01_L
+  - first:
+      1: 100090
+    second: Pinky_01_R
+  - first:
+      1: 100092
+    second: Pinky_02_L
+  - first:
+      1: 100094
+    second: Pinky_02_R
+  - first:
+      1: 100096
+    second: Pinky_03_L
+  - first:
+      1: 100098
+    second: Pinky_03_R
+  - first:
+      1: 100100
+    second: Rifle
+  - first:
+      1: 100102
+    second: Rifle_LOD0
+  - first:
+      1: 100104
+    second: Rifle_LOD0 1
+  - first:
+      1: 100106
+    second: Rifle_LOD1
+  - first:
+      1: 100108
+    second: Rifle_LOD1 1
+  - first:
+      1: 100110
+    second: Rifle_LOD2
+  - first:
+      1: 100112
+    second: Rifle_LOD2 1
+  - first:
+      1: 100114
+    second: Rifle_LOD3
+  - first:
+      1: 100116
+    second: Rifle_LOD3 1
+  - first:
+      1: 100118
+    second: Ring_01_L
+  - first:
+      1: 100120
+    second: Ring_01_R
+  - first:
+      1: 100122
+    second: Ring_02_L
+  - first:
+      1: 100124
+    second: Ring_02_R
+  - first:
+      1: 100126
+    second: Ring_03_L
+  - first:
+      1: 100128
+    second: Ring_03_R
+  - first:
+      1: 100130
+    second: SFTrooper_04
+  - first:
+      1: 100132
+    second: //RootNode
+  - first:
+      1: 100134
+    second: Spine_01
+  - first:
+      1: 100136
+    second: Spine_02
+  - first:
+      1: 100138
+    second: Spine_03
+  - first:
+      1: 100140
+    second: Thigh_L
+  - first:
+      1: 100142
+    second: Thigh_R
+  - first:
+      1: 100144
+    second: Thumb_01_L
+  - first:
+      1: 100146
+    second: Thumb_01_R
+  - first:
+      1: 100148
+    second: Thumb_02_L
+  - first:
+      1: 100150
+    second: Thumb_02_R
+  - first:
+      1: 100152
+    second: Thumb_03_L
+  - first:
+      1: 100154
+    second: Thumb_03_R
+  - first:
+      1: 100156
+    second: UpperArm_L
+  - first:
+      1: 100158
+    second: UpperArm_R
+  - first:
+      1: 100160
+    second: head
+  - first:
+      1: 100162
+    second: rifle
+  - first:
+      4: 400000
+    second: Ball_L
+  - first:
+      4: 400002
+    second: Ball_R
+  - first:
+      4: 400004
+    second: Body
+  - first:
+      4: 400006
+    second: body_LOD0
+  - first:
+      4: 400008
+    second: body_LOD0 1
+  - first:
+      4: 400010
+    second: body_LOD1
+  - first:
+      4: 400012
+    second: body_LOD1 1
+  - first:
+      4: 400014
+    second: body_LOD2
+  - first:
+      4: 400016
+    second: body_LOD2 1
+  - first:
+      4: 400018
+    second: body_LOD3
+  - first:
+      4: 400020
+    second: body_LOD3 1
+  - first:
+      4: 400022
+    second: Calf_L
+  - first:
+      4: 400024
+    second: Calf_R
+  - first:
+      4: 400026
+    second: Clavicle_L
+  - first:
+      4: 400028
+    second: Clavicle_R
+  - first:
+      4: 400030
+    second: Foot_L
+  - first:
+      4: 400032
+    second: Foot_R
+  - first:
+      4: 400034
+    second: Hand_L
+  - first:
+      4: 400036
+    second: Hand_R
+  - first:
+      4: 400038
+    second: Head
+  - first:
+      4: 400040
+    second: Head 1
+  - first:
+      4: 400042
+    second: Head2
+  - first:
+      4: 400044
+    second: Head_LOD0
+  - first:
+      4: 400046
+    second: Head_LOD0 1
+  - first:
+      4: 400048
+    second: Head_LOD1
+  - first:
+      4: 400050
+    second: Head_LOD1 1
+  - first:
+      4: 400052
+    second: Head_LOD2
+  - first:
+      4: 400054
+    second: Head_LOD2 1
+  - first:
+      4: 400056
+    second: Index_01_L
+  - first:
+      4: 400058
+    second: Index_01_R
+  - first:
+      4: 400060
+    second: Index_02_L
+  - first:
+      4: 400062
+    second: Index_02_R
+  - first:
+      4: 400064
+    second: Index_03_L
+  - first:
+      4: 400066
+    second: Index_03_R
+  - first:
+      4: 400068
+    second: LowerArm_L
+  - first:
+      4: 400070
+    second: LowerArm_R
+  - first:
+      4: 400072
+    second: Middle_01_L
+  - first:
+      4: 400074
+    second: Middle_01_R
+  - first:
+      4: 400076
+    second: Middle_02_L
+  - first:
+      4: 400078
+    second: Middle_02_R
+  - first:
+      4: 400080
+    second: Middle_03_L
+  - first:
+      4: 400082
+    second: Middle_03_R
+  - first:
+      4: 400084
+    second: Neck_01
+  - first:
+      4: 400086
+    second: Pelvis
+  - first:
+      4: 400088
+    second: Pinky_01_L
+  - first:
+      4: 400090
+    second: Pinky_01_R
+  - first:
+      4: 400092
+    second: Pinky_02_L
+  - first:
+      4: 400094
+    second: Pinky_02_R
+  - first:
+      4: 400096
+    second: Pinky_03_L
+  - first:
+      4: 400098
+    second: Pinky_03_R
+  - first:
+      4: 400100
+    second: Rifle
+  - first:
+      4: 400102
+    second: Rifle_LOD0
+  - first:
+      4: 400104
+    second: Rifle_LOD0 1
+  - first:
+      4: 400106
+    second: Rifle_LOD1
+  - first:
+      4: 400108
+    second: Rifle_LOD1 1
+  - first:
+      4: 400110
+    second: Rifle_LOD2
+  - first:
+      4: 400112
+    second: Rifle_LOD2 1
+  - first:
+      4: 400114
+    second: Rifle_LOD3
+  - first:
+      4: 400116
+    second: Rifle_LOD3 1
+  - first:
+      4: 400118
+    second: Ring_01_L
+  - first:
+      4: 400120
+    second: Ring_01_R
+  - first:
+      4: 400122
+    second: Ring_02_L
+  - first:
+      4: 400124
+    second: Ring_02_R
+  - first:
+      4: 400126
+    second: Ring_03_L
+  - first:
+      4: 400128
+    second: Ring_03_R
+  - first:
+      4: 400130
+    second: SFTrooper_04
+  - first:
+      4: 400132
+    second: //RootNode
+  - first:
+      4: 400134
+    second: Spine_01
+  - first:
+      4: 400136
+    second: Spine_02
+  - first:
+      4: 400138
+    second: Spine_03
+  - first:
+      4: 400140
+    second: Thigh_L
+  - first:
+      4: 400142
+    second: Thigh_R
+  - first:
+      4: 400144
+    second: Thumb_01_L
+  - first:
+      4: 400146
+    second: Thumb_01_R
+  - first:
+      4: 400148
+    second: Thumb_02_L
+  - first:
+      4: 400150
+    second: Thumb_02_R
+  - first:
+      4: 400152
+    second: Thumb_03_L
+  - first:
+      4: 400154
+    second: Thumb_03_R
+  - first:
+      4: 400156
+    second: UpperArm_L
+  - first:
+      4: 400158
+    second: UpperArm_R
+  - first:
+      4: 400160
+    second: head
+  - first:
+      4: 400162
+    second: rifle
+  - first:
+      21: 2100000
+    second: Head1
+  - first:
+      21: 2100002
+    second: Body1
+  - first:
+      21: 2100004
+    second: Rifle1
+  - first:
+      43: 4300000
+    second: Head_LOD0
+  - first:
+      43: 4300002
+    second: Head_LOD1
+  - first:
+      43: 4300004
+    second: Head_LOD2
+  - first:
+      43: 4300006
+    second: body_LOD0
+  - first:
+      43: 4300008
+    second: body_LOD1
+  - first:
+      43: 4300010
+    second: body_LOD2
+  - first:
+      43: 4300012
+    second: body_LOD3
+  - first:
+      43: 4300014
+    second: Rifle_LOD0
+  - first:
+      43: 4300016
+    second: Rifle_LOD1
+  - first:
+      43: 4300018
+    second: Rifle_LOD2
+  - first:
+      43: 4300020
+    second: Rifle_LOD3
+  - first:
+      74: 7400000
+    second: Backflip
+  - first:
+      74: 7400002
+    second: RunBackwards
+  - first:
+      74: 7400004
+    second: WalkBackwards
+  - first:
+      74: 7400006
+    second: Crouch_Death
+  - first:
+      74: 7400008
+    second: Crouch_Idle
+  - first:
+      74: 7400010
+    second: Crouch_Rapid_Fire
+  - first:
+      74: 7400012
+    second: Crouch_Strafe_Run_Backwards
+  - first:
+      74: 7400014
+    second: Crouch_Strafe_Run_Left
+  - first:
+      74: 7400016
+    second: Crouch_To_Prone
+  - first:
+      74: 7400018
+    second: Crouch_To_Standing_With_Rifle
+  - first:
+      74: 7400020
+    second: Crouch_Walk_Strafe_Left
+  - first:
+      74: 7400022
+    second: Crouch_Walk_Strafe_Right
+  - first:
+      74: 7400024
+    second: Crouch_Walking_Backwards
+  - first:
+      74: 7400026
+    second: Crouch_Strafe_Run_Forward
+  - first:
+      74: 7400028
+    second: Crouch_Strafe_Run_Right
+  - first:
+      74: 7400030
+    second: Death
+  - first:
+      74: 7400032
+    second: Death_Crouching_Headshot_Front
+  - first:
+      74: 7400034
+    second: Death_From_Right
+  - first:
+      74: 7400036
+    second: DeathFront
+  - first:
+      74: 7400038
+    second: DeathFront_02
+  - first:
+      74: 7400040
+    second: Fire_Single_Crouch
+  - first:
+      74: 7400042
+    second: Fire_Walk_Fast
+  - first:
+      74: 7400044
+    second: Fire_walk
+  - first:
+      74: 7400046
+    second: Fire_Crouch_Walk_02
+  - first:
+      74: 7400048
+    second: Fire_Run
+  - first:
+      74: 7400050
+    second: Fire_Walk_Fast_02
+  - first:
+      74: 7400052
+    second: Fire_Slow_Walk
+  - first:
+      74: 7400054
+    second: Grenade_Throw
+  - first:
+      74: 7400056
+    second: Hit_1
+  - first:
+      74: 7400058
+    second: Hit_2
+  - first:
+      74: 7400060
+    second: Idle
+  - first:
+      74: 7400062
+    second: ProneBack
+  - first:
+      74: 7400064
+    second: Prone_Death_HeadHit
+  - first:
+      74: 7400066
+    second: Prone_Firing_Rifle
+  - first:
+      74: 7400068
+    second: Prone_Idle
+  - first:
+      74: 7400070
+    second: Prone_Reloading
+  - first:
+      74: 7400072
+    second: ReloadRun
+  - first:
+      74: 7400074
+    second: Reload__Walk
+  - first:
+      74: 7400076
+    second: Rifle_Idle__1_
+  - first:
+      74: 7400078
+    second: Jump
+  - first:
+      74: 7400080
+    second: Rifle_Run
+  - first:
+      74: 7400082
+    second: Rifle_Sprint
+  - first:
+      74: 7400084
+    second: Rifle_Walk
+  - first:
+      74: 7400086
+    second: Run_Backward
+  - first:
+      74: 7400088
+    second: Run_Forward
+  - first:
+      74: 7400090
+    second: Run_Left
+  - first:
+      74: 7400092
+    second: Run_Right
+  - first:
+      74: 7400094
+    second: Sprint_Forward_Right
+  - first:
+      74: 7400096
+    second: Walk_Backward
+  - first:
+      74: 7400098
+    second: Walk_Backward_Right
+  - first:
+      74: 7400100
+    second: Walk_Forward
+  - first:
+      74: 7400102
+    second: Walk_Left
+  - first:
+      74: 7400104
+    second: Walk_Right
+  - first:
+      74: 7400106
+    second: Walking_Backwards
+  - first:
+      74: 7400108
+    second: Death_02
+  - first:
+      74: 7400110
+    second: Walking
+  - first:
+      74: 7400112
+    second: Fire_Single_Stand
+  - first:
+      74: 7400114
+    second: Fire_Crouch_Walk
+  - first:
+      74: 7400116
+    second: Idle_Aim
+  - first:
+      74: 7400118
+    second: Idle_Aim_Crouch
+  - first:
+      74: 7400120
+    second: ProneForward
+  - first:
+      74: 7400122
+    second: Reload__Stand
+  - first:
+      74: 7400124
+    second: Rifle_Idle__2
+  - first:
+      74: 7400126
+    second: Jump_Up
+  - first:
+      74: 7400128
+    second: Jump_Air
+  - first:
+      74: 7400130
+    second: Jump_Down
+  - first:
+      74: 7400132
+    second: Rifle_Kneel_Idle
+  - first:
+      74: 7400134
+    second: Rifle_Kneel_Idle_02
+  - first:
+      74: 7400136
+    second: Sprint_Forward_Left
+  - first:
+      74: 7400138
+    second: Crouch_Walking_Forward
+  - first:
+      74: 7400140
+    second: Walking_Aim
+  - first:
+      74: 7400142
+    second: Walking_Aim_Search
+  - first:
+      74: 7400144
+    second: Run_Aim
+  - first:
+      74: 7400146
+    second: Run_Aim_Search
+  - first:
+      74: 7400148
+    second: Idle_Aim_Search
+  - first:
+      74: 7400150
+    second: Walk_Backward_Aim
+  - first:
+      74: 7400152
+    second: Walk_Backward_Aim_Search
+  - first:
+      74: 7400154
+    second: Fire_Walk_Fast_Around
+  - first:
+      74: 7400156
+    second: aTPose
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: body_LOD0
+  - first:
+      137: 13700002
+    second: body_LOD1
+  - first:
+      137: 13700004
+    second: body_LOD2
+  - first:
+      137: 13700006
+    second: body_LOD3
+  - first:
+      137: 13700008
+    second: Head_LOD0
+  - first:
+      137: 13700010
+    second: Head_LOD1
+  - first:
+      137: 13700012
+    second: Head_LOD2
+  - first:
+      137: 13700014
+    second: Rifle_LOD0
+  - first:
+      137: 13700016
+    second: Rifle_LOD1
+  - first:
+      137: 13700018
+    second: Rifle_LOD2
+  - first:
+      137: 13700020
+    second: Rifle_LOD3
+  - first:
+      205: 20500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -290,7 +830,7 @@ ModelImporter:
       name: Rifle1
     second: {fileID: 2100000, guid: f2e0cc1ee350b7345a4ec42f68a10489, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 2
     materialLocation: 0
@@ -303,12 +843,822 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Fire_Walk_Fast_Around' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Hand_L' has scale animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Ring_03_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Index_01_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Walk_Backward_Aim_Search' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Index_03_R' has scale animation that
+      will be discarded.\n\nClip 'Walk_Backward_Aim' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Idle_Aim_Search' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Run_Aim_Search' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Pinky_01_L' has scale animation that
+      will be discarded.\n\t'Pinky_02_L' has scale animation that will be discarded.\n\t'Ring_01_L'
+      has scale animation that will be discarded.\n\t'Ring_02_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Index_01_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Thumb_01_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Run_Aim' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Middle_01_L' has scale animation
+      that will be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Index_01_L'
+      has scale animation that will be discarded.\n\t'Index_02_L' has scale animation
+      that will be discarded.\n\t'Index_03_L' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Walking_Aim_Search' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale
+      animation that will be discarded.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\nClip 'Walking_Aim' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ball_R' has scale animation that will be
+      discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\nClip
+      'Crouch_Walking_Forward' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\nClip 'Sprint_Forward_Left'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Ring_02_L' has scale animation that will
+      be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'UpperArm_R'
+      has translation animation that will be discarded.\n\t'Pinky_01_R' has scale
+      animation that will be discarded.\n\t'Pinky_02_R' has scale animation that
+      will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Rifle_Kneel_Idle_02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Pinky_02_R' has scale animation that
+      will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Rifle_Kneel_Idle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Jump_Down' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'UpperArm_L'
+      has translation animation that will be discarded.\n\t'Hand_L' has scale animation
+      that will be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Ring_01_L'
+      has scale animation that will be discarded.\n\t'Middle_01_L' has scale animation
+      that will be discarded.\n\t'Index_01_L' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Thumb_02_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Jump_Air' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'UpperArm_L' has translation animation that
+      will be discarded.\n\t'UpperArm_R' has translation animation that will be discarded.\n\nClip
+      'Jump_Up' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Hand_L' has scale animation that will
+      be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Ring_01_L'
+      has scale animation that will be discarded.\n\t'Middle_01_L' has scale animation
+      that will be discarded.\n\t'Hand_R' has scale animation that will be discarded.\n\t'Thumb_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_01_R'
+      has scale animation that will be discarded.\n\t'Ring_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Rifle_Idle__2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'Index_03_R' has scale
+      animation that will be discarded.\n\nClip 'Reload__Stand' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'Thumb_01_L' has scale animation that
+      will be discarded.\n\t'Thumb_02_L' has scale animation that will be discarded.\n\t'Thumb_03_L'
+      has scale animation that will be discarded.\n\t'Pinky_01_L' has scale animation
+      that will be discarded.\n\t'Pinky_02_L' has scale animation that will be discarded.\n\t'Pinky_03_L'
+      has scale animation that will be discarded.\n\t'Ring_01_L' has scale animation
+      that will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Ring_03_L'
+      has scale animation that will be discarded.\n\t'Middle_01_L' has scale animation
+      that will be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Middle_03_L'
+      has scale animation that will be discarded.\n\t'Index_01_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'ProneForward' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'Thumb_01_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Idle_Aim_Crouch' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Thigh_L' has translation animation that
+      will be discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'UpperArm_L'
+      has translation animation that will be discarded.\n\t'Pinky_02_R' has scale
+      animation that will be discarded.\n\t'Ring_02_R' has scale animation that will
+      be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Idle_Aim' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Fire_Crouch_Walk' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_R' has translation
+      animation that will be discarded.\n\t'Pinky_02_R' has scale animation that
+      will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Fire_Single_Stand' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_01'
+      has translation animation that will be discarded.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has translation
+      animation that will be discarded.\n\t'Index_02_R' has scale animation that
+      will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Walking' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Ball_R'
+      has scale animation that will be discarded.\n\t'Spine_03' has translation animation
+      that will be discarded.\n\nClip 'Death_02' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'Thumb_01_L' has scale animation that will be discarded.\n\t'Thumb_02_L'
+      has scale animation that will be discarded.\n\t'Thumb_03_L' has scale animation
+      that will be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Pinky_03_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Ring_03_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Middle_03_L' has scale animation
+      that will be discarded.\n\t'Index_01_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Index_03_L' has scale animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'LowerArm_R' has translation animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Walking_Backwards' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Spine_03' has
+      translation animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Walk_Right' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ball_R' has scale animation that will be
+      discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'UpperArm_L'
+      has translation animation that will be discarded.\n\t'Pinky_02_L' has scale
+      animation that will be discarded.\n\t'Ring_02_L' has scale animation that will
+      be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Walk_Left' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ball_R' has scale animation that will be
+      discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'Hand_L'
+      has translation animation that will be discarded.\n\nClip 'Walk_Forward' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Spine_03' has
+      translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Pinky_02_R' has scale animation that
+      will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Walk_Backward_Right' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'Ring_03_R' has scale animation that will
+      be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Walk_Backward' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Sprint_Forward_Right' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Ball_R'
+      has scale animation that will be discarded.\n\t'Spine_03' has translation animation
+      that will be discarded.\n\t'UpperArm_L' has translation animation that will
+      be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Ring_02_L' has scale animation
+      that will be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Index_03_L' has scale animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'Hand_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Run_Right' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\nClip
+      'Run_Left' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'UpperArm_R' has translation animation
+      that will be discarded.\n\t'Hand_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Run_Forward' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Index_02_L' has scale animation
+      that will be discarded.\n\t'Index_03_L' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Run_Backward' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Rifle_Walk' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'UpperArm_R'
+      has translation animation that will be discarded.\n\nClip 'Rifle_Sprint' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Foot_R' has scale
+      animation that will be discarded.\n\t'Ball_R' has scale animation that will
+      be discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'UpperArm_L'
+      has translation animation that will be discarded.\n\t'Middle_02_R' has scale
+      animation that will be discarded.\n\t'Middle_03_R' has scale animation that
+      will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Rifle_Run' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'Pinky_02_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Jump' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Hand_L' has scale animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Ring_01_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Index_01_L'
+      has scale animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Thumb_01_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Rifle_Idle__1_' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\nClip 'Reload__Walk' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_01' has translation animation that
+      will be discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'Thumb_01_L'
+      has scale animation that will be discarded.\n\t'Thumb_02_L' has scale animation
+      that will be discarded.\n\t'Thumb_03_L' has scale animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Pinky_03_L' has scale animation that will be discarded.\n\t'Ring_01_L'
+      has scale animation that will be discarded.\n\t'Ring_02_L' has scale animation
+      that will be discarded.\n\t'Ring_03_L' has scale animation that will be discarded.\n\t'Middle_01_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Middle_03_L' has scale animation that will be discarded.\n\t'Index_01_L'
+      has scale animation that will be discarded.\n\t'Index_02_L' has scale animation
+      that will be discarded.\n\t'Index_03_L' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'ReloadRun' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ball_R' has scale animation that will be
+      discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'Thumb_01_L'
+      has scale animation that will be discarded.\n\t'Thumb_02_L' has scale animation
+      that will be discarded.\n\t'Thumb_03_L' has scale animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Pinky_03_L' has scale animation that will be discarded.\n\t'Ring_01_L'
+      has scale animation that will be discarded.\n\t'Ring_02_L' has scale animation
+      that will be discarded.\n\t'Ring_03_L' has scale animation that will be discarded.\n\t'Middle_01_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Middle_03_L' has scale animation that will be discarded.\n\t'Index_01_L'
+      has scale animation that will be discarded.\n\t'Index_02_L' has scale animation
+      that will be discarded.\n\t'Index_03_L' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Prone_Reloading' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Hand_L' has scale animation that will
+      be discarded.\n\t'Thumb_01_L' has scale animation that will be discarded.\n\t'Thumb_02_L'
+      has scale animation that will be discarded.\n\t'Thumb_03_L' has scale animation
+      that will be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Pinky_03_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Ring_03_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Middle_03_L' has scale animation
+      that will be discarded.\n\t'Index_01_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Index_03_L' has scale animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Prone_Idle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'UpperArm_R' has translation animation that
+      will be discarded.\n\nClip 'Prone_Firing_Rifle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'UpperArm_L' has translation animation that
+      will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Prone_Death_HeadHit' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Thumb_01_L' has scale animation that
+      will be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Ring_01_L' has scale animation
+      that will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Middle_01_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Index_01_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Index_03_L' has scale animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'Hand_R' has scale animation that will be discarded.\n\t'Thumb_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_01_R'
+      has scale animation that will be discarded.\n\t'Ring_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'ProneBack' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'UpperArm_R' has translation animation
+      that will be discarded.\n\t'Thumb_01_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Idle' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Spine_03' has translation animation that will be discarded.\n\t'UpperArm_L'
+      has translation animation that will be discarded.\n\t'Pinky_02_R' has scale
+      animation that will be discarded.\n\t'Ring_02_R' has scale animation that will
+      be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Hit_2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'LowerArm_R' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Hit_1' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Pinky_02_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Grenade_Throw' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Ring_02_L' has scale animation that will
+      be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'UpperArm_R'
+      has translation animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Thumb_01_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Fire_Slow_Walk' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Fire_Walk_Fast_02' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Spine_03' has
+      translation animation that will be discarded.\n\t'Pinky_02_L' has translation
+      animation that will be discarded.\n\t'Middle_02_L' has translation animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Fire_Run' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Foot_R' has scale animation that will be
+      discarded.\n\t'Ball_R' has scale animation that will be discarded.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Thumb_01_R' has scale animation that will be discarded.\n\t'Pinky_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_01_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Fire_Crouch_Walk_02' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'UpperArm_R'
+      has translation animation that will be discarded.\n\t'Thumb_01_R' has scale
+      animation that will be discarded.\n\t'Pinky_01_R' has scale animation that
+      will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\t'Head' has translation animation that will be discarded.\n\nClip
+      'Fire_walk' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_R' has translation
+      animation that will be discarded.\n\t'Pinky_02_R' has scale animation that
+      will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Fire_Walk_Fast' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Ring_03_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Index_01_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Fire_Single_Crouch' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'UpperArm_R' has translation animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'DeathFront_02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Ball_L'
+      has translation animation that will be discarded.\n\t'Ball_L' has scale animation
+      that will be discarded.\n\t'Ball_R' has scale animation that will be discarded.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Hand_L' has scale animation that will
+      be discarded.\n\t'Thumb_01_L' has scale animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Ring_03_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Index_01_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'LowerArm_R' has scale animation
+      that will be discarded.\n\t'Hand_R' has scale animation that will be discarded.\n\t'Thumb_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_01_R'
+      has scale animation that will be discarded.\n\t'Ring_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'DeathFront' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Ball_R'
+      has scale animation that will be discarded.\n\t'Spine_03' has translation animation
+      that will be discarded.\n\t'UpperArm_L' has translation animation that will
+      be discarded.\n\t'Pinky_02_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Death_From_Right' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale
+      animation that will be discarded.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Ring_02_L' has scale animation
+      that will be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'Death_Crouching_Headshot_Front' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'LowerArm_L' has translation animation that will
+      be discarded.\n\t'LowerArm_L' has scale animation that will be discarded.\n\t'Hand_L'
+      has scale animation that will be discarded.\n\t'Thumb_01_L' has scale animation
+      that will be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Ring_01_L' has scale animation
+      that will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Ring_03_L'
+      has scale animation that will be discarded.\n\t'Middle_01_L' has scale animation
+      that will be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Index_01_L'
+      has scale animation that will be discarded.\n\t'Index_02_L' has scale animation
+      that will be discarded.\n\t'Index_03_L' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Death' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'Hand_L'
+      has scale animation that will be discarded.\n\t'Thumb_01_L' has scale animation
+      that will be discarded.\n\t'Pinky_01_L' has scale animation that will be discarded.\n\t'Pinky_02_L'
+      has scale animation that will be discarded.\n\t'Ring_01_L' has scale animation
+      that will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Ring_03_L'
+      has scale animation that will be discarded.\n\t'Middle_01_L' has scale animation
+      that will be discarded.\n\t'Middle_02_L' has scale animation that will be discarded.\n\t'Index_01_L'
+      has scale animation that will be discarded.\n\t'Index_02_L' has scale animation
+      that will be discarded.\n\t'Index_03_L' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Crouch_Strafe_Run_Right'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Ball_R'
+      has scale animation that will be discarded.\n\t'Spine_03' has translation animation
+      that will be discarded.\n\t'UpperArm_L' has translation animation that will
+      be discarded.\n\nClip 'Crouch_Strafe_Run_Forward' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine_03' has translation animation that
+      will be discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'UpperArm_R'
+      has translation animation that will be discarded.\n\t'Ring_03_R' has scale
+      animation that will be discarded.\n\t'Middle_03_R' has scale animation that
+      will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\nClip
+      'Crouch_Walking_Backwards' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Ball_R'
+      has scale animation that will be discarded.\n\t'Spine_03' has translation animation
+      that will be discarded.\n\nClip 'Crouch_Walk_Strafe_Right' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'UpperArm_L' has translation animation that will be discarded.\n\t'UpperArm_R'
+      has translation animation that will be discarded.\n\nClip 'Crouch_Walk_Strafe_Left'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'UpperArm_R' has translation animation
+      that will be discarded.\n\nClip 'Crouch_To_Standing_With_Rifle' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\nClip 'Crouch_To_Prone' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_L' has translation animation
+      that will be discarded.\n\t'Ball_L' has scale animation that will be discarded.\n\t'Ball_R'
+      has scale animation that will be discarded.\n\t'Spine_03' has translation animation
+      that will be discarded.\n\t'UpperArm_L' has translation animation that will
+      be discarded.\n\t'Hand_L' has scale animation that will be discarded.\n\t'Thumb_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_01_L' has scale animation
+      that will be discarded.\n\t'Pinky_02_L' has scale animation that will be discarded.\n\t'Ring_01_L'
+      has scale animation that will be discarded.\n\t'Ring_02_L' has scale animation
+      that will be discarded.\n\t'Ring_03_L' has scale animation that will be discarded.\n\t'Middle_01_L'
+      has scale animation that will be discarded.\n\t'Middle_02_L' has scale animation
+      that will be discarded.\n\t'Index_01_L' has scale animation that will be discarded.\n\t'Index_02_L'
+      has scale animation that will be discarded.\n\t'Index_03_L' has scale animation
+      that will be discarded.\n\t'UpperArm_R' has translation animation that will
+      be discarded.\n\t'Hand_R' has scale animation that will be discarded.\n\t'Thumb_01_R'
+      has scale animation that will be discarded.\n\t'Pinky_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_01_R'
+      has scale animation that will be discarded.\n\t'Ring_02_R' has scale animation
+      that will be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_01_R'
+      has scale animation that will be discarded.\n\t'Middle_02_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_01_R'
+      has scale animation that will be discarded.\n\t'Index_02_R' has scale animation
+      that will be discarded.\n\t'Index_03_R' has scale animation that will be discarded.\n\t'Head'
+      has translation animation that will be discarded.\n\nClip 'Crouch_Strafe_Run_Left'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\nClip 'Crouch_Strafe_Run_Backwards'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\nClip 'Crouch_Rapid_Fire'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine_03'
+      has translation animation that will be discarded.\n\nClip 'Crouch_Idle' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Spine_03' has
+      translation animation that will be discarded.\n\t'UpperArm_L' has translation
+      animation that will be discarded.\n\t'Pinky_02_L' has scale animation that
+      will be discarded.\n\t'Ring_02_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Crouch_Death' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Spine_03' has translation
+      animation that will be discarded.\n\t'UpperArm_L' has translation animation
+      that will be discarded.\n\t'Thumb_01_L' has scale animation that will be discarded.\n\t'Pinky_01_L'
+      has scale animation that will be discarded.\n\t'Pinky_02_L' has scale animation
+      that will be discarded.\n\t'Ring_01_L' has scale animation that will be discarded.\n\t'Ring_02_L'
+      has scale animation that will be discarded.\n\t'Ring_03_L' has scale animation
+      that will be discarded.\n\t'Middle_01_L' has scale animation that will be discarded.\n\t'Middle_02_L'
+      has scale animation that will be discarded.\n\t'Index_01_L' has scale animation
+      that will be discarded.\n\t'Index_02_L' has scale animation that will be discarded.\n\t'Index_03_L'
+      has scale animation that will be discarded.\n\t'Hand_R' has scale animation
+      that will be discarded.\n\t'Pinky_02_R' has scale animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_01_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_01_R' has scale animation that will be discarded.\n\t'Index_02_R'
+      has scale animation that will be discarded.\n\t'Index_03_R' has scale animation
+      that will be discarded.\n\nClip 'WalkBackwards' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ball_R' has scale animation that will be
+      discarded.\n\t'Spine_03' has translation animation that will be discarded.\n\t'UpperArm_L'
+      has translation animation that will be discarded.\n\t'Pinky_02_R' has scale
+      animation that will be discarded.\n\t'Ring_02_R' has scale animation that will
+      be discarded.\n\t'Ring_03_R' has scale animation that will be discarded.\n\t'Middle_02_R'
+      has scale animation that will be discarded.\n\t'Middle_03_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'RunBackwards' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'Hand_L' has translation animation that will be discarded.\n\t'Ring_02_R'
+      has scale animation that will be discarded.\n\t'Ring_03_R' has scale animation
+      that will be discarded.\n\t'Middle_03_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n\nClip 'Backflip' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Ball_R' has scale animation
+      that will be discarded.\n\t'Spine_03' has translation animation that will be
+      discarded.\n\t'LowerArm_R' has scale animation that will be discarded.\n\t'Hand_R'
+      has scale animation that will be discarded.\n\t'Thumb_01_R' has scale animation
+      that will be discarded.\n\t'Pinky_01_R' has scale animation that will be discarded.\n\t'Pinky_02_R'
+      has scale animation that will be discarded.\n\t'Ring_01_R' has scale animation
+      that will be discarded.\n\t'Ring_02_R' has scale animation that will be discarded.\n\t'Ring_03_R'
+      has scale animation that will be discarded.\n\t'Middle_01_R' has scale animation
+      that will be discarded.\n\t'Middle_02_R' has scale animation that will be discarded.\n\t'Middle_03_R'
+      has scale animation that will be discarded.\n\t'Index_01_R' has scale animation
+      that will be discarded.\n\t'Index_02_R' has scale animation that will be discarded.\n\t'Index_03_R'
+      has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -327,25 +1677,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.027
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 90
     normalImportMode: 0
@@ -354,12 +1711,342 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 0
     normalSmoothingSource: 1
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: SFTrooperUnity(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_LOD0
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_LOD2
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_LOD0
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_LOD1
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_LOD1
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rifle_LOD0
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_LOD3
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rifle_LOD3
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_LOD2
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rifle_LOD2
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rifle_LOD1
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SFTrooper_04
+      parentName: SFTrooperUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: SFTrooper_04
+      position: {x: -0.0060912003, y: 1.1816896, z: -0.02286036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thigh_L
+      parentName: Pelvis
+      position: {x: -0.09654418, y: -0.05663766, z: 0.0019674909}
+      rotation: {x: -0.00026187956, y: 0.010425522, z: 0.9996269, w: 0.025246982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calf_L
+      parentName: Thigh_L
+      position: {x: -0.0000018822587, y: 0.45076558, z: -0.0000005379463}
+      rotation: {x: -0.08136908, y: -0.0006158685, z: 0.0075885374, w: 0.996655}
+      scale: {x: 1, y: 1.0000008, z: 1.0000004}
+    - name: Foot_L
+      parentName: Calf_L
+      position: {x: -0.000002088619, y: 0.5168785, z: 0.0000004899683}
+      rotation: {x: 0.493815, y: 0.10607339, z: -0.060837083, w: 0.8609263}
+      scale: {x: 0.9999997, y: 1.0000004, z: 0.9999995}
+    - name: Ball_L
+      parentName: Foot_L
+      position: {x: 0.0000010056854, y: 0.21427985, z: 0.0000005092799}
+      rotation: {x: 0.32365292, y: 0.058608424, z: -0.020096036, w: 0.94414514}
+      scale: {x: 1.00001, y: 1.00001, z: 1.0000099}
+    - name: Thigh_R
+      parentName: Pelvis
+      position: {x: 0.1087263, y: -0.05663766, z: 0.0019674909}
+      rotation: {x: 0.00026187956, y: 0.010425522, z: 0.9996269, w: -0.025246982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calf_R
+      parentName: Thigh_R
+      position: {x: 0.0000021401177, y: 0.45076567, z: -0.0000005355323}
+      rotation: {x: -0.08136908, y: 0.0006158685, z: -0.0075885374, w: 0.996655}
+      scale: {x: 1, y: 1.0000008, z: 1.0000004}
+    - name: Foot_R
+      parentName: Calf_R
+      position: {x: 0.0000018693842, y: 0.51687855, z: 0.0000005028429}
+      rotation: {x: 0.493815, y: -0.10607339, z: 0.060837083, w: 0.8609263}
+      scale: {x: 0.9999997, y: 1.0000004, z: 0.9999995}
+    - name: Ball_R
+      parentName: Foot_R
+      position: {x: -0.0000009928107, y: 0.21427982, z: 0.0000005221547}
+      rotation: {x: 0.32365292, y: -0.058608424, z: 0.020096036, w: 0.94414514}
+      scale: {x: 1.00001, y: 1.00001, z: 1.0000099}
+    - name: Spine_01
+      parentName: Pelvis
+      position: {x: -0, y: 0.101054505, z: -0.0070127123}
+      rotation: {x: -0.03463576, y: 0, z: -0, w: 0.9994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine_02
+      parentName: Spine_01
+      position: {x: 0.0000000016093255, y: 0.11818062, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine_03
+      parentName: Spine_02
+      position: {x: 0.0000000016093255, y: 0.1350644, z: 2.3980818e-17}
+      rotation: {x: 1.3877788e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavicle_L
+      parentName: Spine_03
+      position: {x: -0.058823016, y: 0.112941176, z: -0.0015087252}
+      rotation: {x: 0.56941414, y: -0.41480532, z: 0.5788404, w: 0.41066778}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999976}
+    - name: UpperArm_L
+      parentName: Clavicle_L
+      position: {x: 0.0000005285921, y: 0.16611853, z: -0.000018512865}
+      rotation: {x: -0.1378512, y: -0.17277431, z: 0.022426365, w: 0.9750093}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999998}
+    - name: LowerArm_L
+      parentName: UpperArm_L
+      position: {x: 0.00000048996867, y: 0.24638435, z: 0.000002900819}
+      rotation: {x: -0.022903875, y: 0.20321749, z: -0.16846155, w: 0.96426076}
+      scale: {x: 0.9999903, y: 1, z: 1}
+    - name: Hand_L
+      parentName: LowerArm_L
+      position: {x: -0.07391231, y: 0.2742343, z: -0.02011061}
+      rotation: {x: 0.337099, y: -0.5644614, z: 0.27059075, w: 0.70322704}
+      scale: {x: 0.999952, y: 1.0000315, z: 1.0000167}
+    - name: Thumb_01_L
+      parentName: Hand_L
+      position: {x: 0.024057144, y: 0.028289972, z: -0.055620503}
+      rotation: {x: 0.9665346, y: -0.021626858, z: 0.08755063, w: -0.24016257}
+      scale: {x: 0.9999744, y: 1.0000333, z: 0.9999925}
+    - name: Thumb_02_L
+      parentName: Thumb_01_L
+      position: {x: 0.00013549616, y: 0.0009773767, z: 0.029617433}
+      rotation: {x: -0.12524503, y: -0.0035743245, z: -0.01796568, w: 0.9919568}
+      scale: {x: 0.9999898, y: 1.000007, z: 1.0000036}
+    - name: Thumb_03_L
+      parentName: Thumb_02_L
+      position: {x: 0.00072558085, y: -0.0045783883, z: 0.03339962}
+      rotation: {x: -0.07919684, y: 0.0068678674, z: -0.0022030936, w: 0.99683297}
+      scale: {x: 1, y: 0.9999919, z: 0.9999884}
+    - name: Pinky_01_L
+      parentName: Hand_L
+      position: {x: -0.024148045, y: 0.10488177, z: -0.003847767}
+      rotation: {x: -0.64397806, y: 0.53848296, z: 0.43534425, w: 0.32527494}
+      scale: {x: 0.99981904, y: 1.0001917, z: 0.9999597}
+    - name: Pinky_02_L
+      parentName: Pinky_01_L
+      position: {x: -0.00092150556, y: -0.0036170108, z: 0.02793215}
+      rotation: {x: 0.026064718, y: 0.0026699596, z: 0.0102855535, w: 0.9996038}
+      scale: {x: 1.0000199, y: 1.0000182, z: 0.99999243}
+    - name: Pinky_03_L
+      parentName: Pinky_02_L
+      position: {x: -0.00092015194, y: -0.0035183218, z: 0.022793652}
+      rotation: {x: 0.0322824, y: -0.023677476, z: -0.032641176, w: 0.99866503}
+      scale: {x: 0.9999976, y: 1.0000033, z: 0.9999994}
+    - name: Ring_01_L
+      parentName: Hand_L
+      position: {x: -0.023157327, y: 0.10569496, z: -0.027841263}
+      rotation: {x: -0.7278626, y: 0.4611793, z: 0.31005386, w: 0.40174162}
+      scale: {x: 0.999852, y: 1.0001866, z: 0.99996185}
+    - name: Ring_02_L
+      parentName: Ring_01_L
+      position: {x: -0.0038453448, y: -0.001955501, z: 0.036929764}
+      rotation: {x: 0.10824695, y: -0.051749326, z: 0.048736744, w: 0.99157923}
+      scale: {x: 0.99999297, y: 1.0000376, z: 0.99998075}
+    - name: Ring_03_L
+      parentName: Ring_02_L
+      position: {x: -0.0008853142, y: 0.0029812492, z: 0.03038971}
+      rotation: {x: 0.038433526, y: 0.058437753, z: 0.17930144, w: 0.9813047}
+      scale: {x: 0.99990445, y: 1.0001034, z: 1.0000024}
+    - name: Middle_01_L
+      parentName: Hand_L
+      position: {x: -0.017542154, y: 0.092426784, z: -0.051377214}
+      rotation: {x: -0.70903623, y: 0.467956, z: 0.29196286, w: 0.4393659}
+      scale: {x: 0.999852, y: 1.0001823, z: 0.99995625}
+    - name: Middle_02_L
+      parentName: Middle_01_L
+      position: {x: -0.002038752, y: 0.00076628133, z: 0.05048261}
+      rotation: {x: 0.03538504, y: -0.017174853, z: 0.002364814, w: 0.9992234}
+      scale: {x: 0.9999995, y: 1.000019, z: 0.99998075}
+    - name: Middle_03_L
+      parentName: Middle_02_L
+      position: {x: -0.00008315091, y: 0.00041929015, z: 0.03387905}
+      rotation: {x: 0.027438894, y: -0.033623558, z: 0.057870448, w: 0.9973804}
+      scale: {x: 0.9999935, y: 1.0000077, z: 0.99999976}
+    - name: Index_01_L
+      parentName: Hand_L
+      position: {x: -0.0059155067, y: 0.086439274, z: -0.08150973}
+      rotation: {x: -0.76136225, y: 0.3386415, z: 0.24154201, w: 0.4972996}
+      scale: {x: 0.9998943, y: 1.0001433, z: 0.9999629}
+    - name: Index_02_L
+      parentName: Index_01_L
+      position: {x: 0.0013646042, y: 0.00086142495, z: 0.04350429}
+      rotation: {x: 0.09685499, y: 0.028035395, z: 0.08850104, w: 0.99095947}
+      scale: {x: 0.9999751, y: 1.0000443, z: 0.99998105}
+    - name: Index_03_L
+      parentName: Index_02_L
+      position: {x: 0.0006094133, y: 0.0038675817, z: 0.02718816}
+      rotation: {x: 0.010624047, y: 0.002364884, z: 0.13768663, w: 0.99041605}
+      scale: {x: 0.99993616, y: 1.0000548, z: 1}
+    - name: Clavicle_R
+      parentName: Spine_03
+      position: {x: 0.07100514, y: 0.11294166, z: -0.0015087123}
+      rotation: {x: -0.56940895, y: -0.41481227, z: 0.57883525, w: -0.4106751}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: UpperArm_R
+      parentName: Clavicle_R
+      position: {x: -0.0000005221548, y: 0.16611889, z: -0.000014426114}
+      rotation: {x: -0.13783242, y: 0.17277448, z: -0.022425024, w: 0.97501194}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: LowerArm_R
+      parentName: UpperArm_R
+      position: {x: -0.00000029648268, y: 0.24638477, z: -0.00000038697118}
+      rotation: {x: -0.02291359, y: -0.20321473, z: 0.16846468, w: 0.9642606}
+      scale: {x: 1, y: 1, z: 1.00001}
+    - name: Hand_R
+      parentName: LowerArm_R
+      position: {x: 0.0739136, y: 0.27423546, z: -0.020108651}
+      rotation: {x: 0.33709964, y: 0.5644548, z: -0.27057546, w: 0.7032379}
+      scale: {x: 0.9999512, y: 1.0000095, z: 1.0000497}
+    - name: Thumb_01_R
+      parentName: Hand_R
+      position: {x: -0.024058124, y: 0.028290166, z: -0.055620838}
+      rotation: {x: 0.96653366, y: 0.021639466, z: -0.0875584, w: -0.24016248}
+      scale: {x: 0.99997157, y: 0.9999538, z: 1.0000743}
+    - name: Thumb_02_R
+      parentName: Thumb_01_R
+      position: {x: -0.00013525118, y: 0.0009771833, z: 0.02961733}
+      rotation: {x: -0.12524627, y: 0.0035743907, z: 0.017969454, w: 0.99195653}
+      scale: {x: 0.9999998, y: 0.9999874, z: 1.0000131}
+    - name: Thumb_03_R
+      parentName: Thumb_02_R
+      position: {x: -0.0007254263, y: -0.0045783883, z: 0.03339986}
+      rotation: {x: -0.07918245, y: -0.0068704938, z: 0.0021996652, w: 0.99683404}
+      scale: {x: 1.0000002, y: 0.9999956, z: 1.0000048}
+    - name: Pinky_01_R
+      parentName: Hand_R
+      position: {x: 0.024147492, y: 0.10488153, z: -0.003848334}
+      rotation: {x: -0.6439947, y: -0.53846735, z: -0.43536606, w: 0.32523867}
+      scale: {x: 0.999752, y: 1.0001467, z: 1.0001011}
+    - name: Pinky_02_R
+      parentName: Pinky_01_R
+      position: {x: 0.00092100276, y: -0.003619963, z: 0.02793215}
+      rotation: {x: 0.026125293, y: -0.0026682762, z: -0.0102863, w: 0.9996022}
+      scale: {x: 1, y: 0.9999903, z: 1.0000001}
+    - name: Pinky_03_R
+      parentName: Pinky_02_R
+      position: {x: 0.00091965223, y: -0.0035186699, z: 0.022793407}
+      rotation: {x: 0.03227405, y: 0.02366697, z: 0.032637388, w: 0.99866563}
+      scale: {x: 0.99999684, y: 1.0000019, z: 1.0000012}
+    - name: Ring_01_R
+      parentName: Hand_R
+      position: {x: 0.023157816, y: 0.105693966, z: -0.027841842}
+      rotation: {x: -0.7278602, y: -0.4611866, z: -0.3100542, w: 0.40173727}
+      scale: {x: 0.99979687, y: 1.0001136, z: 1.0000892}
+    - name: Ring_02_R
+      parentName: Ring_01_R
+      position: {x: 0.0038453431, y: -0.0019554885, z: 0.03693019}
+      rotation: {x: 0.108253546, y: 0.051753458, z: -0.048738103, w: 0.9915783}
+      scale: {x: 0.9999779, y: 1.0000052, z: 1.0000072}
+    - name: Ring_03_R
+      parentName: Ring_02_R
+      position: {x: 0.0008850435, y: 0.0029812104, z: 0.030390058}
+      rotation: {x: 0.03842485, y: -0.058428988, z: -0.17930973, w: 0.98130405}
+      scale: {x: 0.99990934, y: 1.0000935, z: 1.0000074}
+    - name: Middle_01_R
+      parentName: Hand_R
+      position: {x: 0.017542295, y: 0.092426285, z: -0.051377773}
+      rotation: {x: -0.7090282, y: -0.4679774, z: -0.29194936, w: 0.4393652}
+      scale: {x: 0.9998047, y: 1.0000876, z: 1.0000879}
+    - name: Middle_02_R
+      parentName: Middle_01_R
+      position: {x: 0.0020396095, y: 0.00076879514, z: 0.050482955}
+      rotation: {x: 0.03538405, y: 0.017179485, z: -0.0023663635, w: 0.9992233}
+      scale: {x: 0.9999999, y: 0.9999965, z: 1.0000035}
+    - name: Middle_03_R
+      parentName: Middle_02_R
+      position: {x: 0.00008313804, y: 0.00041934167, z: 0.033879153}
+      rotation: {x: 0.027432598, y: 0.03361784, z: -0.057874646, w: 0.9973805}
+      scale: {x: 0.9999935, y: 1.0000049, z: 1.0000018}
+    - name: Index_01_R
+      parentName: Hand_R
+      position: {x: 0.0059162416, y: 0.08643912, z: -0.08151062}
+      rotation: {x: -0.761368, y: -0.33864537, z: -0.24154088, w: 0.49728876}
+      scale: {x: 0.9998669, y: 1.000037, z: 1.0000963}
+    - name: Index_02_R
+      parentName: Index_01_R
+      position: {x: -0.0013646686, y: 0.00086151547, z: 0.043503694}
+      rotation: {x: 0.096871175, y: -0.028057314, z: -0.088509224, w: 0.99095654}
+      scale: {x: 0.9999775, y: 0.9999929, z: 1.0000297}
+    - name: Index_03_R
+      parentName: Index_02_R
+      position: {x: -0.0006085979, y: 0.0038673365, z: 0.027188057}
+      rotation: {x: 0.010625238, y: -0.002359931, z: -0.13770191, w: 0.9904139}
+      scale: {x: 0.99996805, y: 1.0000422, z: 0.9999902}
+    - name: Neck_01
+      parentName: Spine_03
+      position: {x: 0.0000000016093255, y: 0.15194519, z: 0.000000012874604}
+      rotation: {x: 0.03463576, y: -0, z: -0, w: 0.9994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Neck_01
+      position: {x: -0, y: 0.026555069, z: 0.0065912404}
+      rotation: {x: -1.3877788e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head2
+      parentName: Head
+      position: {x: -0, y: 0.24286135, z: 0.060279932}
+      rotation: {x: -1.3877788e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -367,13 +2054,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.027
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

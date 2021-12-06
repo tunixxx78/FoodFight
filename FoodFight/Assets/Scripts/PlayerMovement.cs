@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
 
     SFXManager sFXManager;
+    [SerializeField] Animator playerAnimator;
 
     private void Awake()
     {
@@ -44,16 +45,40 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jump * -2f * gravityy);
+            playerAnimator.SetTrigger("Jump");
+            
+            
         }
+        
 
         velocity.y += gravityy * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        if(Input.GetButtonDown("Fire1"))
+       
+
+        if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
             sFXManager.CharacterShooting();
         }
+
+        if (Input.GetKey(KeyCode.W) && isGrounded || Input.GetKey(KeyCode.S) && isGrounded)
+        {
+            playerAnimator.SetBool("Run", true);
+        }
+        else { playerAnimator.SetBool("Run", false); }
+
+        if (Input.GetKey(KeyCode.A) && isGrounded)
+        {
+            playerAnimator.SetBool("RunLeft", true);
+        }
+        else { playerAnimator.SetBool("RunLeft", false); }
+
+        if (Input.GetKey(KeyCode.D) && isGrounded)
+        {
+            playerAnimator.SetBool("RunRight", true);
+        }
+        else { playerAnimator.SetBool("RunRight", false); }
 
         
     }
@@ -98,8 +123,14 @@ public class PlayerMovement : MonoBehaviour
         if (collision.collider.CompareTag("Ammo"))
         {
             Debug.Log("OSUMA");
-            gameManager.GameOver();
+            playerAnimator.SetTrigger("Death");
+            Invoke("KillPlayer", 3f);
         }
+    }
+
+    void KillPlayer()
+    {
+        gameManager.GameOver();
     }
 
 

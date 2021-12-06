@@ -9,15 +9,17 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             TryAgain();
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
     public void StartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 0;
     }
 
     public void GameOver()
@@ -32,11 +34,18 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
+
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void StartTime()
+    {
+        Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 }
