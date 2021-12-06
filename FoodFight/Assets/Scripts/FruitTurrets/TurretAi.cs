@@ -10,6 +10,7 @@ public class TurretAi : MonoBehaviour
     public GameObject gunRotator;
     public float force;
     public Vector3 gravity;
+    public GameObject[] Fruits;
 
     private int angleMultiplier; // Tämä on 1 jos ammutaan positiivisen suuntaan(z) ja -1 jos ammutaan negatiiviseen suuntaan(z).
 
@@ -66,7 +67,8 @@ public class TurretAi : MonoBehaviour
         yield return new WaitUntil(() => gunRotator.GetComponent<RotateGun>().rotating == false);
 
         // Eka ammus
-        GameObject projectile = Instantiate(ammo, ammoSpawn.transform.position, Quaternion.identity);
+        int randomFruits = Random.Range(0, Fruits.Length);
+        GameObject projectile = Instantiate(Fruits[randomFruits], ammoSpawn.transform.position, Quaternion.identity);
         projectile.GetComponent<Rigidbody>().AddRelativeForce(direction[0], ForceMode.Impulse);
         sFXManager.CannonShooting();
 
@@ -80,7 +82,7 @@ public class TurretAi : MonoBehaviour
         yield return new WaitUntil(() => gunRotator.GetComponent<RotateGun>().rotating == false);
 
         // Toka ammus
-        GameObject projectile2 = Instantiate(ammo, ammoSpawn.transform.position, Quaternion.identity);
+        GameObject projectile2 = Instantiate(Fruits[randomFruits], ammoSpawn.transform.position, Quaternion.identity);
         projectile2.GetComponent<Rigidbody>().AddRelativeForce(direction[1], ForceMode.Impulse);
         sFXManager.CannonShooting();
 

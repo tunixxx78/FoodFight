@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4905124390989915122}
   - component: {fileID: 5656979787042764797}
   m_Layer: 0
-  m_Name: EnemyOne
+  m_Name: EnemyTwo
   m_TagString: Ammo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 76fc0b16dd70e411ca905a53d8c4d5ef, type: 2}
+  - {fileID: 2100000, guid: 944d29429d6b74745b31e9ee6b4237d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  scoreAmount: 1
 --- !u!54 &5656979787042764797
 Rigidbody:
   m_ObjectHideFlags: 0

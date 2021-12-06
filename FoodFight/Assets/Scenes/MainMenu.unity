@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -263,6 +263,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 712523876}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (6)
@@ -865,6 +881,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 712523876}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (15)
@@ -930,6 +962,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 283074594}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (5)
@@ -2779,6 +2827,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 1913650022}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (8)
@@ -4200,6 +4264,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 32885630}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (11)
@@ -4265,6 +4345,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 32885630}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (1)
@@ -4330,6 +4426,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 32885630}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (2)
@@ -4550,6 +4662,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 1913650022}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (4)
@@ -4615,6 +4743,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 843586172}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (13)
@@ -5210,6 +5354,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 843586172}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (3)
@@ -5357,6 +5517,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 712523876}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (12)
@@ -6150,6 +6326,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 1913650022}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (7)
@@ -6215,6 +6407,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 283074594}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (9)
@@ -6290,6 +6498,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 283074594}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI (10)
@@ -6673,6 +6897,22 @@ PrefabInstance:
       propertyPath: targetLocation
       value: 
       objectReference: {fileID: 843586172}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[0]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f52735e40f39243fea1086890a12e980, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[1]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: a0e1abd7117ac4bffbec1ffa442ebf2e, type: 3}
+    - target: {fileID: 5362484707085636170, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
+      propertyPath: Fruits.Array.data[2]
+      value: 
+      objectReference: {fileID: 4905124390989915123, guid: f74a967be2b6946f78660842a89f4467, type: 3}
     - target: {fileID: 5362484707085636173, guid: 1d9791143570349f7b84fdd14e63c5ed, type: 3}
       propertyPath: m_Name
       value: TurretAI

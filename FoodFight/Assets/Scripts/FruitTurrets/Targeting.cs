@@ -13,8 +13,15 @@ public class Targeting : MonoBehaviour
             Host.GetComponent<TurretAi>().Shoot();
             host2.GetComponent<TurretAi>().Shoot();
             host3.GetComponent<TurretAi>().Shoot();
-            
+
+            Invoke("SecondWave", 1f);
         }
 
+    }
+    void SecondWave()
+    {
+        Host.GetComponent<TurretAi>().Shoot();
+        host2.GetComponent<TurretAi>().Shoot();
+        host3.GetComponent<TurretAi>().Shoot();
     }
 }
