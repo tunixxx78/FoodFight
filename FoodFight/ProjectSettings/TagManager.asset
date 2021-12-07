@@ -8,6 +8,7 @@ TagManager:
   - Ammo
   - Bullet
   - Terrain
+  - Faling
   layers:
   - Default
   - TransparentFX

@@ -54,6 +54,11 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravityy * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
+        if(isGrounded == false)
+        {
+            playerAnimator.SetBool("InAir", true);
+        }
+        else { playerAnimator.SetBool("InAir", false); }
        
 
         if (Input.GetButtonDown("Fire1"))
@@ -131,6 +136,15 @@ public class PlayerMovement : MonoBehaviour
     void KillPlayer()
     {
         gameManager.GameOver();
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if(collider.gameObject.tag == "Faling")
+        {
+            Debug.Log("OSUMA TRIGGERIIN");
+            
+        }
     }
 
 
