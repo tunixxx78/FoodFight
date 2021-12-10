@@ -9,10 +9,7 @@ public class Target : MonoBehaviour
 
     private void Update()
     {
-        if (transform.position.y <= -5)
-        {
-            Destroy(gameObject);
-        }
+        
     }
 
     public void TakeDamage(float amount)
@@ -33,6 +30,10 @@ public class Target : MonoBehaviour
             Debug.Log("Osuma Palloon!");
             ScoringSystem.theScore += scoreAmount;
             ScoringSystem.theHighScore += scoreAmount;
+            Destroy(this.gameObject);
+        }
+        if (collision.collider.CompareTag("Ground"))
+        {
             Destroy(this.gameObject);
         }
     }

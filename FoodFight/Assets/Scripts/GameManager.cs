@@ -14,6 +14,10 @@ public class GameManager : MonoBehaviour
             TryAgain();
             Cursor.lockState = CursorLockMode.None;
         }
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void StartGame()
@@ -45,7 +49,7 @@ public class GameManager : MonoBehaviour
     public void StartTime()
     {
         Time.timeScale = 1;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
 }
